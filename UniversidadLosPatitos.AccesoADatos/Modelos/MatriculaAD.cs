@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UniversidadLosPatitos.AccesoADatos.Modelos
 {
-    internal class MatriculaAD
+    public class MatriculaAD
     {
     }
 }
