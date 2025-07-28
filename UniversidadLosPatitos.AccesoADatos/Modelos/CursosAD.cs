@@ -17,7 +17,7 @@ namespace UniversidadLosPatitos.AccesoADatos.Modelos
         [Column("CodigoDelCurso")]
         public string CodigoDelCurso { get; set; }
 
-        [Column("NombreCurso")]
+        [Column("NombreDelCurso")]
         public string NombreCurso { get; set; }
 
         [Column("Carrera")]
@@ -51,7 +51,7 @@ namespace UniversidadLosPatitos.AccesoADatos.Modelos
         public DateTime FechaDeRegistro { get; set; }
 
         [Column("FechaDeModificacion")]
-        public DateTime FechaDeModificacion { get; set; }
+        public DateTime? FechaDeModificacion { get; set; }
 
         [Column("Estado")]
         public bool Estado { get; set; }
