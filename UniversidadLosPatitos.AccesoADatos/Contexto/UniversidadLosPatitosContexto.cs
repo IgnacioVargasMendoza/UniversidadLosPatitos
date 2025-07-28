@@ -10,12 +10,12 @@ namespace UniversidadLosPatitos.AccesoADatos.Contexto
 {
     public class UniversidadLosPatitosContexto : DbContext
     {
-        public UniversidadLosPatitosContexto() : base("name=UniversidadLosPatitosContexto")
+        public UniversidadLosPatitosContexto()
         {
             Database.SetInitializer<UniversidadLosPatitosContexto>(null);
         }
 
-        public DbSet<MatriculaAD> Matriculas { get; set; }
+        //public DbSet<MatriculaAD> Matriculas { get; set; }
         public DbSet<CursosAD> Cursos { get; set; }
 
     }
